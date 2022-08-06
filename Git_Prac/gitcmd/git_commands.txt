@@ -1,0 +1,84 @@
+ git --version
+
+git config  --global user.name "Ravindra"
+git config  --global user.email "ravindrabatav27@gmail.com"
+
+git config --global user.name
+git config --global user.email
+
+git config --list
+
+ls -lart
+
+git status
+
+git commit =>open vim editor and save changes to esc+:wq then files get commited  (OR) 
+git commit -m "Added more htmls"
+
+git add -A  --> save the changes in all files
+
+git status --> to check the status of html file
+
+git checkout (file name -->about.html)-->>undo the changes
+git checkout -f  =>> undo multiple files
+
+git diff 
+git diff HEAD
+
+git show
+git log
+
+**********Branches*********
+
+git branch  --list  --->>how many branches present
+git branch login --->>new branch login
+git branch --list
+
+git checkout login -->> switch to login branch
+
+git status
+ 
+git branch -d login => delete login branch
+
+rm about.html =>remove about html file
+
+**********Merge*********
+git checkout master
+
+git merge login
+
+*********************
+git checkout -b register => create register branch and switched to new branch register
+git branch --list
+
+*******************HARRY****************
+git diff  
+
+git commit -a -m "Skipped Staging area and fixed"
+
+git rm --cached (filename.html)=> remove only staging area
+git rm (filename.html) ==>permanent remove
+
+git branch Ravi ==>new branch created
+git branch =>show how many branches
+git checkout Ravi => switch to Ravi Branch
+
+git marge Ravi
+
+git checkout -b flask =>New Branch flask created and switched to this branch
+
+***********************GITHUB*******************
+
+git remote add origin "github link paste here "
+git push -u  origin master => add file  to github
+
+create new folder and pull file=>
+git clone "github link paste here " 
+
+****************************************************
+create text file in comuter .txt(ravi.txt)
+git add ravi.txt
+git commit -m "This Is my Text File"
+
+git push origin (branch Name)
+
